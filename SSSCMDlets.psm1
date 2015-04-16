@@ -1,5 +1,4 @@
 ﻿#.ExternalHelp SSSCMDlets.psm1-help.xml
-
 Function Export-ToExcel{
 <#
 .NAME
@@ -162,7 +161,7 @@ Function Export-ToExcel{
         Remove-BitsTransfer -BitsJob $DisplayName -ErrorAction Stop -ErrorVariable exporterror
     }
 }
-
+#.ExternalHelp SSSCMDlets.psm1-help.xml
 function Get-LogError{
 <#
 .NAME
@@ -226,7 +225,7 @@ function Get-LogError{
     }
     End{}
 }
-
+#.ExternalHelp SSSCMDlets.psm1-help.xml
 function Install-Chocolatey{
     [CmdletBinding(DefaultParameterSetName ="Install",
                    SupportsShouldProcess=$true,
@@ -268,7 +267,7 @@ function Install-Chocolatey{
     }
     END{}
 }
-
+#.ExternalHelp SSSCMDlets.psm1-help.xml
 Function Install-WMF3{
     [CmdletBinding(DefaultParameterSetName="Install",
                    SupportsShouldProcess=$true,
@@ -299,7 +298,7 @@ Function Install-WMF3{
     }
 
 }
-
+#.ExternalHelp SSSCMDlets.psm1-help.xml
 Function Install-WMF4{
     [CmdletBinding(DefaultParameterSetName="Install",
                    SupportsShouldProcess=$true,
@@ -327,7 +326,7 @@ Function Install-WMF4{
     }
 
 }
-
+#.ExternalHelp SSSCMDlets.psm1-help.xml
 Function Install-ReportViewer11{
     [CmdletBinding(DefaultParameterSetName="Install",
                    SupportsShouldProcess=$true,
@@ -341,7 +340,7 @@ Function Install-ReportViewer11{
     END{}
 
 }
-
+#.ExternalHelp SSSCMDlets.psm1-help.xml
 Function Install-SQLCLRTypes{
     [CmdletBinding(DefaultParameterSetName="Install",
                    SupportsShouldProcess=$true,
@@ -368,7 +367,7 @@ Function Install-SQLCLRTypes{
     }
 
 }
-
+#.ExternalHelp SSSCMDlets.psm1-help.xml
 Function Install-DotNet45{
     [CmdletBinding(DefaultParameterSetName="Install",
                    SupportsShouldProcess=$true,
@@ -380,7 +379,7 @@ Function Install-DotNet45{
     }
     END{}
 }
-
+#.ExternalHelp SSSCMDlets.psm1-help.xml
 Function Install-MapPoint{
     [CmdletBinding(DefaultParameterSetName="Install",
                    SupportsShouldProcess=$true,
@@ -403,7 +402,7 @@ Function Install-MapPoint{
     }
     END{}
 }
-
+#.ExternalHelp SSSCMDlets.psm1-help.xml
 Function Set-UEFIActivation{
 <#
 .NAME
@@ -461,7 +460,7 @@ Function Set-UEFIActivation{
     }
     END{}
 }
-
+#.ExternalHelp SSSCMDlets.psm1-help.xml
 Function New-AVException{
 <#
 .NAME
@@ -547,7 +546,7 @@ Error status is Null. Using Get-PsDrive to generate UNC Path.
     }
     END{}
 }
-
+#.ExternalHelp SSSCMDlets.psm1-help.xml
 Function Set-DriveMaps{
 <#
 .NAME
@@ -650,7 +649,7 @@ Function Set-DriveMaps{
     }
     END{}
 }
-
+#.ExternalHelp SSSCMDlets.psm1-help.xml
 Function Rename-SSSPC{
     <#
     .AUTHOR
@@ -683,7 +682,7 @@ Function Rename-SSSPC{
     }
     END{}
 }
-
+#.ExternalHelp SSSCMDlets.psm1-help.xml
 Function New-ShortcutIcons{
 <#
 .NAME
@@ -799,7 +798,7 @@ Function New-ShortcutIcons{
     }
     END{}
 }
-
+#.ExternalHelp SSSCMDlets.psm1-help.xml
 Function New-GitRepo{
 <#
 .NAME
