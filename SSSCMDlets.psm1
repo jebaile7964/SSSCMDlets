@@ -1,4 +1,6 @@
-﻿Function Export-ToExcel{
+﻿#.ExternalHelp SSSCMDlets.psm1-help.xml
+
+Function Export-ToExcel{
 <#
 .NAME
    ExportTo-Excel
