@@ -1381,28 +1381,28 @@
 			<command:parameter required="true" variableLength="false" globbing="false" pipelineInput="true (ByValue, ByPropertyName)" position="0">
 				<maml:name>IDName</maml:name>
 				<maml:description>
-					<maml:para />
+					<maml:para>Enter the Workstation ID of this CMDlet.  It&#39;s part of the manual entry parameter set, so it won&#39;t work in conjunction with CSV entry.</maml:para>
 				</maml:description>
 				<command:parameterValue required="true" variableLength="false">Object</command:parameterValue>
 			</command:parameter>
 			<command:parameter required="true" variableLength="false" globbing="false" pipelineInput="true (ByValue, ByPropertyName)" position="1">
 				<maml:name>RPGDirectory</maml:name>
 				<maml:description>
-					<maml:para />
+					<maml:para>Use this to define the RPG directory.</maml:para>
 				</maml:description>
 				<command:parameterValue required="true" variableLength="false">Object</command:parameterValue>
 			</command:parameter>
 			<command:parameter required="true" variableLength="false" globbing="false" pipelineInput="false" position="2">
 				<maml:name>Version</maml:name>
 				<maml:description>
-					<maml:para />
+					<maml:para>There are two versions, &quot;SSS&quot; and &quot;Propane&quot;.  If you need both, you&#39;ll have to run the command with one version argument at a time.</maml:para>
 				</maml:description>
 				<command:parameterValue required="true" variableLength="false">Object</command:parameterValue>
 			</command:parameter>
 			<command:parameter required="true" variableLength="false" globbing="false" pipelineInput="true (ByValue)" position="3">
 				<maml:name>Destination</maml:name>
 				<maml:description>
-					<maml:para />
+					<maml:para>This is the destination directory.  use something that all workstations ca get to, like i:\icons.</maml:para>
 				</maml:description>
 				<command:parameterValue required="true" variableLength="false">String</command:parameterValue>
 			</command:parameter>
@@ -1426,28 +1426,28 @@
 			<command:parameter required="true" variableLength="false" globbing="false" pipelineInput="true (ByValue, ByPropertyName)" position="1">
 				<maml:name>RPGDirectory</maml:name>
 				<maml:description>
-					<maml:para />
+					<maml:para>Use this to define the RPG directory.</maml:para>
 				</maml:description>
 				<command:parameterValue required="true" variableLength="false">Object</command:parameterValue>
 			</command:parameter>
 			<command:parameter required="true" variableLength="false" globbing="false" pipelineInput="false" position="2">
 				<maml:name>Version</maml:name>
 				<maml:description>
-					<maml:para />
+					<maml:para>There are two versions, &quot;SSS&quot; and &quot;Propane&quot;.  If you need both, you&#39;ll have to run the command with one version argument at a time.</maml:para>
 				</maml:description>
 				<command:parameterValue required="true" variableLength="false">Object</command:parameterValue>
 			</command:parameter>
 			<command:parameter required="true" variableLength="false" globbing="false" pipelineInput="true (ByValue)" position="3">
 				<maml:name>Destination</maml:name>
 				<maml:description>
-					<maml:para />
+					<maml:para>This is the destination directory.  use something that all workstations ca get to, like i:\icons.</maml:para>
 				</maml:description>
 				<command:parameterValue required="true" variableLength="false">String</command:parameterValue>
 			</command:parameter>
 			<command:parameter required="true" variableLength="false" globbing="false" pipelineInput="true (ByValue)" position="4">
 				<maml:name>CSV</maml:name>
 				<maml:description>
-					<maml:para />
+					<maml:para>This is part of the CSV parameter set.  It will not work in conjunction with the IDName parameter.  The CSV must have a WSID column.</maml:para>
 				</maml:description>
 				<command:parameterValue required="true" variableLength="false">String</command:parameterValue>
 			</command:parameter>
@@ -1471,7 +1471,7 @@
 		<command:parameter required="true" variableLength="false" globbing="false" pipelineInput="true (ByValue, ByPropertyName)" position="0">
 			<maml:name>IDName</maml:name>
 			<maml:description>
-				<maml:para />
+				<maml:para>Enter the Workstation ID of this CMDlet.  It&#39;s part of the manual entry parameter set, so it won&#39;t work in conjunction with CSV entry.</maml:para>
 			</maml:description>
 			<command:parameterValue required="true" variableLength="false">Object</command:parameterValue>
 			<dev:type>
@@ -1483,7 +1483,7 @@
 		<command:parameter required="true" variableLength="false" globbing="false" pipelineInput="true (ByValue, ByPropertyName)" position="1">
 			<maml:name>RPGDirectory</maml:name>
 			<maml:description>
-				<maml:para />
+				<maml:para>Use this to define the RPG directory.</maml:para>
 			</maml:description>
 			<command:parameterValue required="true" variableLength="false">Object</command:parameterValue>
 			<dev:type>
@@ -1495,7 +1495,7 @@
 		<command:parameter required="true" variableLength="false" globbing="false" pipelineInput="false" position="2">
 			<maml:name>Version</maml:name>
 			<maml:description>
-				<maml:para />
+				<maml:para>There are two versions, &quot;SSS&quot; and &quot;Propane&quot;.  If you need both, you&#39;ll have to run the command with one version argument at a time.</maml:para>
 			</maml:description>
 			<command:parameterValue required="true" variableLength="false">Object</command:parameterValue>
 			<dev:type>
@@ -1507,7 +1507,7 @@
 		<command:parameter required="true" variableLength="false" globbing="false" pipelineInput="true (ByValue)" position="3">
 			<maml:name>Destination</maml:name>
 			<maml:description>
-				<maml:para />
+				<maml:para>This is the destination directory.  use something that all workstations ca get to, like i:\icons.</maml:para>
 			</maml:description>
 			<command:parameterValue required="true" variableLength="false">String</command:parameterValue>
 			<dev:type>
@@ -1543,7 +1543,7 @@
 		<command:parameter required="true" variableLength="false" globbing="false" pipelineInput="true (ByValue)" position="4">
 			<maml:name>CSV</maml:name>
 			<maml:description>
-				<maml:para />
+				<maml:para>This is part of the CSV parameter set.  It will not work in conjunction with the IDName parameter.  The CSV must have a WSID column.</maml:para>
 			</maml:description>
 			<command:parameterValue required="true" variableLength="false">String</command:parameterValue>
 			<dev:type>
