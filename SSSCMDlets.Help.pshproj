@@ -3,7 +3,6 @@
   <Name>SSSCMDlets</Name>
   <Version>0.0</Version>
   <Description />
-  <ModulePath>C:\Users\bailey.jonathan\Documents\GitHub\PowerShell-Code-Samples\Modules\SSSCMDlets.psm1</ModulePath>
   <HasManifest>false</HasManifest>
   <OverridePostCount>false</OverridePostCount>
   <FetchPostCount xsi:nil="true" />
@@ -704,7 +703,7 @@
             <string>System.Management.Automation.ParameterAttribute</string>
           </Attributes>
           <Aliases />
-          <Description />
+          <Description>Enter the Workstation ID of this CMDlet.  It's part of the manual entry parameter set, so it won't work in conjunction with CSV entry.</Description>
           <DefaultValue />
         </ParameterDescription>
         <ParameterDescription type="Object" varLen="false" required="true" dynamic="false" pipeRemaining="false" pipe="true" pipeProp="true" isPos="true" pos="1" globbing="false">
@@ -713,7 +712,7 @@
             <string>System.Management.Automation.ParameterAttribute</string>
           </Attributes>
           <Aliases />
-          <Description />
+          <Description>Use this to define the RPG directory.</Description>
           <DefaultValue />
         </ParameterDescription>
         <ParameterDescription type="Object" varLen="false" required="true" dynamic="false" pipeRemaining="false" pipe="false" pipeProp="false" isPos="true" pos="2" globbing="false">
@@ -723,7 +722,7 @@
             <string>System.Management.Automation.ParameterAttribute</string>
           </Attributes>
           <Aliases />
-          <Description />
+          <Description>There are two versions, "SSS" and "Propane".  If you need both, you'll have to run the command with one version argument at a time.</Description>
           <DefaultValue />
         </ParameterDescription>
         <ParameterDescription type="String" varLen="false" required="true" dynamic="false" pipeRemaining="false" pipe="true" pipeProp="false" isPos="true" pos="3" globbing="false">
@@ -733,7 +732,7 @@
             <string>System.Management.Automation.ParameterAttribute</string>
           </Attributes>
           <Aliases />
-          <Description />
+          <Description>This is the destination directory.  use something that all workstations ca get to, like i:\icons.</Description>
           <DefaultValue />
         </ParameterDescription>
         <ParameterDescription type="SwitchParameter" varLen="false" required="false" dynamic="false" pipeRemaining="false" pipe="false" pipeProp="false" isPos="false" pos="named" globbing="false">
@@ -767,7 +766,7 @@
             <string>System.Management.Automation.ParameterAttribute</string>
           </Attributes>
           <Aliases />
-          <Description />
+          <Description>This is part of the CSV parameter set.  It will not work in conjunction with the IDName parameter.  The CSV must have a WSID column.</Description>
           <DefaultValue />
         </ParameterDescription>
       </Parameters>
